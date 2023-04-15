@@ -9,30 +9,30 @@ services:
     branch: master
     envVars:
       - key: API_ID
-       value: ""
+        value: 4750867
         sync: false
       - key: API_HASH 
-       value: ""
+        value: 4750867
         sync: false
       - key: BOT_TOKEN
-       value: ""
+        value: 6156033639:AAG_TLqMvUcgnPeUbZqAVgCfGrwFnjJyB3Y
         sync: false
       - key: SESSION_NAME
-       value: ""
+        value: screenshot0i_bot
         synv: false 
       - key: LOG_CHANNEL
-       value: ""
+        value: -1001624171223
         sync: false
       - key: DATABASE_URL
-       value: ""
+        value: mongodb+srv://vkdatabase9:vkdatabase9@cluster0.hwaux.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
         sync: false
       - key: AUTH_USERS
-       value: ""
+        value: 1999010840
         sync: false 
       - key: HOST
-       value: ""
+        value: 8080
         sync: false
       - key: TRACK_CHANNEL
-       value: ""
+        value: -1001624171223
         sync: false    
     autoDeploy: true
