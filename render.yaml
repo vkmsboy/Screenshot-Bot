@@ -9,30 +9,30 @@ services:
     branch: master
     envVars:
       - key: API_ID
-       value:
+       value: ""
         sync: false
       - key: API_HASH 
-       value:
+       value: ""
         sync: false
       - key: BOT_TOKEN
-       value:
+       value: ""
         sync: false
       - key: SESSION_NAME
-       value:
+       value: ""
         synv: false 
       - key: LOG_CHANNEL
-       value:
+       value: ""
         sync: false
       - key: DATABASE_URL
-       value:
+       value: ""
         sync: false
       - key: AUTH_USERS
-       value:
+       value: ""
         sync: false 
       - key: HOST
-       value:
+       value: ""
         sync: false
       - key: TRACK_CHANNEL
-       value:
+       value: ""
         sync: false    
     autoDeploy: true
