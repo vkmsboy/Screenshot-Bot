@@ -1,0 +1,29 @@
+services:
+  - type: web
+    plan: free
+    name: Screenshot-Bot
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python -m bot
+    repo: https://github.com/vkmsboy/Screenshot-Bot.git      
+    branch: master
+    envVars:
+      - key: API_ID
+        sync: false
+      - key: API_HASH 
+        sync: false
+      - key: BOT_TOKEN
+        sync: false
+      - key: SESSION_NAME
+        synv: false 
+      - key: LOG_CHANNEL
+        sync: false
+      - key: DATABASE_URL
+        sync: false
+      - key: AUTH_USERS
+        sync: false 
+      - key: HOST
+        sync: false
+      - key: TRACK_CHANNEL
+        sync: false    
+    autoDeploy: true
